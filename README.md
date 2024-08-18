@@ -22,5 +22,6 @@ tpet -display
 ### Prerequisites
 
 - A Unix-like operating system (Linux, macOS, etc.)
+- A [Nerd Font](https://www.nerdfonts.com/) installed to your terminal
 - Bash or any compatible shell
 - Python 3.10+ (Recommended)
