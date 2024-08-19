@@ -13,11 +13,16 @@ TPet Fetch is a terminal-based program inspired by Nerdfetch that displays a ter
   - Uptime
 
 ## Installation
+- Go to the [releases page](https://github.com/RohanBhattacharyya/TPet-Fetch/releases/latest), and download tpet.zip.
+- Unzip this file and cd into the directory.
+- Run the commands below
 ```bash
-git clone https://github.com/RohanBhattacharyya/TPet-Fetch.git
-mv TPet-Fetch/dist/tpet/* ~/.local/bin/
+mv tpet/* ~/.local/bin/
 tpet -display
 ```
+## Issues
+- If you run tpet -display and it can't find it
+  - Add ~/.local/bin/ to your path  
 ### Prerequisites
 
 - A Unix-like operating system (Linux, macOS, etc.)
