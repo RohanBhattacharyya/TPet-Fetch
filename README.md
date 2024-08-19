@@ -7,7 +7,6 @@ TPet Fetch is a terminal-based program inspired by Nerdfetch that displays a ter
 - Display a terminal pet.
 - Show system information such as:
   - Operating System
-  - Kernel version (Planned)
   - CPU model (Planned)
   - Memory usage (Planned)
   - Disk usage (Planned)
