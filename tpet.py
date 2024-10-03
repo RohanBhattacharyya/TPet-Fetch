@@ -24,7 +24,7 @@ storage = shutil.disk_usage(path_to_check)
 hunger_thresh = 600
 bedtime = 21
 try:
-    f = open('data.json',"r")
+    f = open('~/tpdata.json',"r")
     content = f.read()
     f.close()
 except:
@@ -224,6 +224,6 @@ if len(sys.argv)>=2:
         help()
 else:
     help()
-f = open("data.json","w")
+f = open("~/tpdata.json","w")
 f.write(json.dumps(stats, indent = 4))
 f.close()
