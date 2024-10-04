@@ -17,7 +17,7 @@ TPet Fetch is a terminal-based program inspired by Nerdfetch that displays a ter
 - Unzip this file and cd into the directory.
 - Run the commands below
 ```bash
-mv tpet/* ~/.local/bin/
+mv tpet ~/.local/bin/
 tpet -display
 ```
 ## Issues
