@@ -12,7 +12,7 @@ import os
 n = len(sys.argv)
 import random
 import datetime
-home = Path.home()
+home = str(Path.home())
 # ANSI escape sequences regex pattern
 ansi_escape = re.compile(r'\x1b\[([0-9]+)(;[0-9]+)*m')
 
