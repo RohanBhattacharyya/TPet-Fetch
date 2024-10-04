@@ -1,6 +1,6 @@
-#compile using github actions
 from colorama import Fore, Back, Style
 import sys
+from pathlib import Path
 import shutil
 import re
 import json
@@ -12,6 +12,7 @@ import os
 n = len(sys.argv)
 import random
 import datetime
+home = Path.home()
 # ANSI escape sequences regex pattern
 ansi_escape = re.compile(r'\x1b\[([0-9]+)(;[0-9]+)*m')
 
@@ -25,7 +26,7 @@ storage = shutil.disk_usage(path_to_check)
 hunger_thresh = 600
 bedtime = 21
 try:
-    f = open('~/tpdata.json',"r")
+    f = open(home+"/tpdata.json","r")
     content = f.read()
     f.close()
 except:
@@ -225,6 +226,6 @@ if len(sys.argv)>=2:
         help()
 else:
     help()
-f = open("~/tpdata.json","w")
+f = open(home+"/tpdata.json","w")
 f.write(json.dumps(stats, indent = 4))
 f.close()
